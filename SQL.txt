@@ -1,0 +1,8 @@
+SELECT tb1."Name", cat."Name" FROM
+	(SELECT "ID", "Name", maptb."Category_ID" FROM public."Product" AS products
+	LEFT JOIN 
+	public."Categories_Product" as maptb
+	on products."ID" = maptb."Product_ID") as tb1 
+LEFT JOIN 
+public."Categories" as cat
+on cat."ID" = tb1."Category_ID";

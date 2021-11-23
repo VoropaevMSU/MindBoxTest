@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTaskMindBox", "TestTaskMindBox\TestTaskMindBox.csproj", "{D5DB691F-8F56-40B6-833F-6D93958F85D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FD4348F4-9A66-4F4C-860C-B0DA86DD2315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5DB691F-8F56-40B6-833F-6D93958F85D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DB691F-8F56-40B6-833F-6D93958F85D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DB691F-8F56-40B6-833F-6D93958F85D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DB691F-8F56-40B6-833F-6D93958F85D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4348F4-9A66-4F4C-860C-B0DA86DD2315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4348F4-9A66-4F4C-860C-B0DA86DD2315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4348F4-9A66-4F4C-860C-B0DA86DD2315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4348F4-9A66-4F4C-860C-B0DA86DD2315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
